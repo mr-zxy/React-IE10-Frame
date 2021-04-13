@@ -1,0 +1,43 @@
+@import '~antd/dist/antd.css';
+.mb-0{
+  margin-bottom: 0px !important;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+// 菜单最外层
+.ant-menu.ant-menu-dark{
+  background: rgb(48,65,86) !important;
+}
+// 菜单子级
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+  background: rgb(31,45,61) !important;
+}
+// tabel 表格展开 禁止变色 详见menu页
+.ant-table-row-expand-icon::after{
+  background: none !important;
+}

@@ -1,0 +1,18 @@
+#loading{
+  .loading-drawer-mask{
+    height: 100%;
+    opacity: 1;
+    animation: antdDrawerFadeIn 0.3s cubic-bezier(0.7, 0.3, 0.1, 1);
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .LoadingSpin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

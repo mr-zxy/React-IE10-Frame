@@ -1,0 +1,35 @@
+.header-wrapper {
+  .scrollbars-wrapper div:nth-child(3) {
+    right: -2px !important;
+  }
+
+  .content-wrapper {
+    //background: #fff!important;
+    height: 100% !important;
+    overflow-y: auto !important;
+  }
+
+  .view-app-wrapper {
+    //padding: 10px 10px 0 10px;
+    //background: #eef3f7;
+  }
+
+  .sidebar-flag {
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+    svg{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .footer-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #ccc !important;
+    box-sizing: border-box !important;
+  }
+
+}

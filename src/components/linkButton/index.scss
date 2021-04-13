@@ -1,0 +1,40 @@
+$pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #2196f3;
+  border-radius: 4px;
+  padding: 2px 6px;
+  transition: all 0.3s;
+
+  > span {
+    vertical-align: middle;
+  }
+
+  &:hover {
+    background: $pro-header-hover-bg;
+  }
+}
+
+.globalButtonBackground {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  border:1px solid #ccc !important;
+  border-radius:3px !important;
+}
+
+.globalButtonTextColor {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.ButtonFloatRight {
+  font-size: 12px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}

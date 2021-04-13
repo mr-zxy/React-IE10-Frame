@@ -1,0 +1,19 @@
+.logo-wrapper{
+  align-items: center;
+  background-color: #2b2f3a;
+  text-align: center;
+  img{
+    height: 32px;
+    width: 32px;
+  }
+  h1{
+    display: inline-block;
+    margin:  0 0 0 10px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+  }
+}
